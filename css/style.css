@@ -392,10 +392,6 @@ textarea.error {
   padding-bottom: 50px;
 }
 
-.section-contact {
-  background: #F5EDE6;
-}
-
 .contact {
   display: flex;
   flex-direction: column;
@@ -759,7 +755,10 @@ textarea.error {
 }
 
 .form-message {
-  background: #F5EDE6;
+  background: url("../img/contact.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   padding-bottom: 60px;
 }
 
@@ -802,6 +801,7 @@ textarea.error {
   background-position: 50% 50%;
   width: 100%;
   height: 433px;
+  border-top: 2px solid #000;
 }
 
 .masterpieces {
@@ -900,6 +900,10 @@ textarea.error {
 
 .recipe-master {
   margin: 180px 0;
+}
+
+.section-contact a {
+  color: #000;
 }
 
 .popup {
