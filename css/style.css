@@ -248,6 +248,10 @@ li.counter li:before {
   font-weight: 300;
 }
 
+.header-top__item a {
+  color: #000;
+}
+
 .header-top__line {
   padding: 0 10px;
 }
@@ -573,6 +577,11 @@ textarea.error {
   background-color: #f4d89b;
   border-radius: 50%;
   transform: translateY(-50%);
+  transition: 0.4s;
+}
+
+.slider .slick-arrow:hover {
+  background: #fff;
 }
 
 .slider .slick-arrow.slick-prev {
@@ -633,7 +642,7 @@ textarea.error {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 33px;
+  margin-bottom: 31px;
   padding-left: 35px;
   position: relative;
   letter-spacing: -0.21px;
@@ -931,7 +940,7 @@ textarea.error {
   }
 
   .wrapper-slider-text {
-    margin-bottom: 29px;
+    margin-bottom: 28px;
   }
 
   .header__link {
@@ -947,7 +956,7 @@ textarea.error {
   }
 
   .wrapper-main-logo {
-    padding-top: 5px;
+    padding-top: 10px;
   }
 
   .logo-img {
@@ -973,7 +982,7 @@ textarea.error {
   }
 
   .wrapper-slider-text {
-    margin-bottom: 25px;
+    margin-bottom: 24px;
   }
 
   .slider .slick-arrow.slick-prev {
@@ -1010,7 +1019,7 @@ textarea.error {
   }
 
   .wrapper-slider-text {
-    margin-bottom: 21px;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 1200px) {
@@ -1049,7 +1058,7 @@ textarea.error {
 }
 @media (max-width: 992px) {
   .wrapper-slider-text {
-    margin-bottom: 17px;
+    margin-bottom: 16px;
   }
 
   .masterpieces {
@@ -1084,6 +1093,29 @@ textarea.error {
   }
 }
 @media (max-width: 768px) {
+  .icon__all {
+    width: 30px;
+    height: 30px;
+  }
+
+  .wrapper-social {
+    margin: 0 -7px;
+  }
+
+  .wrapper-icon {
+    margin: 7px;
+  }
+
+  .wrapper-optitrade img {
+    max-width: 250px;
+  }
+
+  .masterpieces__item {
+    margin: 4px;
+    flex: 0 0 calc(100% - 8px);
+    display: flex;
+  }
+
   .content__title {
     font-size: 36px;
   }
@@ -1119,7 +1151,7 @@ textarea.error {
 
   .wrapper-slider-text {
     padding: 10px;
-    margin: 0 -20px 17px -20px;
+    margin: 0 -20px 16px -20px;
   }
 
   .cheese {
@@ -1131,7 +1163,7 @@ textarea.error {
   }
 
   .more__link {
-    padding: 10px 12px;
+    padding: 7px 12px;
     font-size: 24px;
   }
 
@@ -1298,7 +1330,7 @@ textarea.error {
   .wrapper-slider-text {
     flex-direction: column;
     align-items: center;
-    margin: 0 -20px 12.5px -20px;
+    margin: 0 -20px 12px -20px;
   }
 
   .details {
